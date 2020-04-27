@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="imgProfile" type="id" />
+    <item name="btnSave" type="id" />
+    <item name="firstName" type="id" />
+    <item name="lastName" type="id" />
+    <item name="dateNaissance" type="id" />
+    <item name="hourNaissance" type="id" />
+    <item name="yourMail" type="id" />
+    <item name="phone" type="id" />
+    <item name="titleActivity" type="id" />
+</resources>

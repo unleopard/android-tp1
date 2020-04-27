@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GLAW</string>
+    <string name="enregistrer">Save</string>
+    <string name="firstName">Votre Nom</string>
+    <string name="LastName">Votre Prenom</string>
+    <string name="yourMail">Votre E-mail</string>
+    <string name="yourPhone">Votre phone 06...</string>
+    <string name="titleActivity">Inscription</string>
+    <string name="done">Save</string>
+
+</resources>

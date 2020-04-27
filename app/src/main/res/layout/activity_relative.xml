@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:paddingRight="15dp"
+    android:paddingLeft="15dp"
+    android:paddingTop="70dp">
+
+    <EditText
+        android:id="@id/firstName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/firstName"/>
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/firstName"
+        android:hint="@string/LastName"
+        android:inputType="text"
+        android:layout_marginTop="40dp"/>
+    
+    <EditText
+        android:id="@id/dateNaissance"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/lastName"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/hourNaissance"
+        android:inputType="date"
+        android:paddingRight="15dp" />
+
+    <EditText
+        android:id="@id/hourNaissance"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/lastName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@id/yourMail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/yourMail"
+        android:layout_below="@id/dateNaissance"
+        android:layout_marginTop="40dp"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/yourMail"
+        android:layout_marginTop="40dp"
+        android:inputType="phone"
+        android:hint="@string/yourPhone"
+        />
+
+
+</RelativeLayout>
+
+
+<!--
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Relative">
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+-->

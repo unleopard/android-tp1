@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="40dp"
+    android:columnCount="2">
+
+    <TextView
+        android:id="@id/titleActivity"
+        android:layout_width="wrap_content"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:gravity="fill"
+        android:paddingStart="15dp"
+        android:text="@string/titleActivity"
+        android:textColor="@color/colorTitles"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@id/firstName"
+        android:layout_width="wrap_content"
+        android:gravity="fill"
+        android:layout_columnWeight="1"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ubuntu_light"
+        android:inputType="text"
+        android:hint="@string/firstName"/>
+
+    <EditText
+        android:id="@id/lastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:layout_columnWeight="1"
+        android:hint="@string/LastName"/>
+    <EditText
+        android:id="@id/yourMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:inputType="textEmailAddress"
+        android:layout_columnWeight="1"
+        android:hint="@string/yourMail"/>
+    <EditText
+        android:id="@id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="fill"
+        android:inputType="phone"
+        android:layout_columnWeight="1"
+        android:hint="@string/yourPhone"/>
+
+    <Button
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_columnWeight="1"
+        android:layout_columnSpan="2"
+        android:layout_gravity="end"
+
+        android:text="@string/done" />
+
+
+</GridLayout>
+
+<!--
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Grid">
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+-->
